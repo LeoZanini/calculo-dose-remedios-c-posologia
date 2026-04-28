@@ -54,6 +54,7 @@ def main():
         numeral+=1
     for dia in dias_finais:
         print(f'Dose final do {dia["remedio"]} : {dia["dose"]}')
+    return prox_doses,dias_finais
 
 main()
 
